@@ -25,8 +25,7 @@ public class Node {
     // Method to send an integer and receive a response
     public void sendInteger(int number) throws IOException, ClassNotFoundException {
         oos.writeObject(number); // Send the number
-//        int response = (int) ois.readObject(); // Read the response
-//        System.out.println("Received response: " + response);
+
     }
     
     // Method to close the connection
